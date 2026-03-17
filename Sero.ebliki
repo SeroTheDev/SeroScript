@@ -395,7 +395,7 @@ local NameHideEnabledToggle = NameHideGroup:AddToggle("NameHideEnabledToggle",{T
 NameHideEnabledToggle:OnChanged(function(value)
     Settings.Misc.NameHide = value
 end)
-local NameHideNameTextbox = NameHideGroup:AddInput("NameHideNameTextbox",{Text = "Name";Default = "Float.Balls",Numeric = false,Finished = true})
+local NameHideNameTextbox = NameHideGroup:AddInput("NameHideNameTextbox",{Text = "Name";Default = "S3RO.LUA",Numeric = false,Finished = true})
 NameHideNameTextbox:OnChanged(function(Value)
     NameHideName = Value
 end)
